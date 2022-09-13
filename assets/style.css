@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1000px) {
+    #grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+
+        grid-template-areas:
+        "pie1"
+        "bar";
+
+        row-gap: 10px;
+    }
